@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(175, 10, 178);
+    color: black;
+}
+
+.menu {
+    padding: 2% 0% 2% 72%;
+    background-color: white; /*COR DE FUNDO DA NAV*/
+    text-decoration: none;
+}
+
+.menu__logo{
+    float: left;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0% -250%;    
+}
+
+.menu__aba {
+    display: flex;
+    gap: 50px;
+}
+
+.nav__menu__aba {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.introducao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black; /*TROCAR*/
+}
+
+.introducao__conteudo {
+    width: 6125px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.introducao__conteudo__titulo {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; /*TROCAR*/
+}
+
+.introducao__conteudo__subtitulo {
+    font-size: 30px
+}
+
+.introducao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: aqua;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.subtitulo__links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.links__link {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid white; /* https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css?_gl=1*1le4djx*_ga*MTQ1NzUzNjc1Ni4xNzA4NjMwNjQw*_ga_1EPWSW3PCS*MTcxMzQ4MDY2NS4yMS4xLjE3MTM0ODM4OTcuMC4wLjA.*_fplc*QkI3aXZhbUxUJTJCejdvNHphM3IxMVR2TjJpazFSbWVsQ01KWnRETXozOUxKMmJISkFHSDlueXJ1WXhYdEludXpaYzlodWNvUFhsTHRqQkUyVEhtc054UHROTHBEalZ6OTRNMUNNZU9uc1dPVHptTGZOYmptTUhLZDlXV0wwWXclM0QlM0Q.*/
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.links__link:hover {
+    background-color: aquamarine;
+    padding: 21.6px;
+}
+
+.rodape {
+    padding: 24px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;       
+}
