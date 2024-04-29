@@ -1,3 +1,15 @@
+/* ADD URL FONT */
+
+:root {
+    --cor-primaria: #b366ff;
+    --cor-secundaria: #0d0d0d;
+    --cor-terciaria: #f2f2f2;
+    --cor-hover: #8c1aff;
+
+    --fonte-primaria: /*DEFINIR*/;
+    --fonte-secundaria: /*DEFINIR*/ ;
+}
+
 * {
     margin: 0;
     padding: 0; 
@@ -6,13 +18,13 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(175, 10, 178);
-    color: black;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .menu {
     padding: 2% 0% 2% 72%;
-    background-color: white; /*COR DE FUNDO DA NAV*/
+    background-color: var(--cor-terciaria); /*COR DE FUNDO DA NAV*/
     text-decoration: none;
 }
 
@@ -31,7 +43,7 @@ body {
 .nav__menu__aba {
     font-size: 24px;
     font-weight: 500;
-    color: black;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 
@@ -40,7 +52,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: black; /*TROCAR*/
+    color: var(--cor-secundaria); /*TROCAR*/
 }
 
 .introducao__conteudo {
@@ -52,8 +64,8 @@ body {
 
 .introducao__conteudo__titulo {
     font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black; /*TROCAR*/
+    font-family: Jacquard 12 Charted;
+    color: var(--cor-secundaria); /*TROCAR*/
 }
 
 .introducao__conteudo__subtitulo {
@@ -67,7 +79,7 @@ body {
 
 .apresentacao__conteudo__texto a{
     text-decoration: none;
-    color: aqua;
+    color: var(--cor-terciaria);
 }
 
 
@@ -86,11 +98,10 @@ body {
 }
 
 .links__link {
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid white; /* https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css?_gl=1*1le4djx*_ga*MTQ1NzUzNjc1Ni4xNzA4NjMwNjQw*_ga_1EPWSW3PCS*MTcxMzQ4MDY2NS4yMS4xLjE3MTM0ODM4OTcuMC4wLjA.*_fplc*QkI3aXZhbUxUJTJCejdvNHphM3IxMVR2TjJpazFSbWVsQ01KWnRETXozOUxKMmJISkFHSDlueXJ1WXhYdEludXpaYzlodWNvUFhsTHRqQkUyVEhtc054UHROTHBEalZ6OTRNMUNNZU9uc1dPVHptTGZOYmptTUhLZDlXV0wwWXclM0QlM0Q.*/
+    border: 2px solid var(--cor-terciaria); 
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -98,18 +109,18 @@ body {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: white;
+    color: var(--cor-terciaria);
 }
 
 .links__link:hover {
-    background-color: aquamarine;
+    background-color: var(--cor-hover);
     padding: 21.6px;
 }
 
 .rodape {
-    padding: 24px;
-    color: black;
-    background-color: white;
+    padding: 26px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
     text-align: center;
     font-size: 24px;       
 }
