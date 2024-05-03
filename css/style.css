@@ -1,10 +1,10 @@
 /* ADD URL FONT */
 
 :root {
-    --cor-primaria: #b366ff;
-    --cor-secundaria: #0d0d0d;
-    --cor-terciaria: #f2f2f2;
-    --cor-hover: #8c1aff;
+    --cor-primaria: #6962AD;
+    --cor-secundaria: #83C0C1;
+    --cor-terciaria: #6C22A6;
+    --cor-hover: #96E9C6;
 
     --fonte-primaria: /*DEFINIR*/;
     --fonte-secundaria: /*DEFINIR*/ ;
@@ -16,64 +16,63 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
 
 .menu {
-    padding: 2% 0% 2% 72%;
-    background-color: var(--cor-terciaria); /*COR DE FUNDO DA NAV*/
-    text-decoration: none;
+    padding: 2vw 0vw 2vw 15vw;
+    background-color: var(--cor-terciaria); 
+    text-decoration: none; 
 }
 
-.menu__logo{
+/* .menu__logo{
     float: left;
     font-weight: 700;
-    font-size: 28px;
-    margin: 0% -250%;    
-}
+    font-size: 1.75rem;
+    margin: 0% -225%;
+} */
 
 .menu__aba {
     display: flex;
-    gap: 50px;
+    gap: 80px;
 }
 
 .nav__menu__aba {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     color: var(--cor-secundaria);
     text-decoration: none;
 }
 
 .introducao {
-    margin: 10% 15%;
+    margin: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: var(--cor-secundaria); /*TROCAR*/
+    color: var(--cor-secundaria); 
+    gap: 82px;
 }
 
 .introducao__conteudo {
-    width: 6125px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .introducao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: Jacquard 12 Charted;
-    color: var(--cor-secundaria); /*TROCAR*/
 }
 
 .introducao__conteudo__subtitulo {
-    font-size: 30px
+    font-size: 1.9rem;
 }
 
 .introducao__conteudo__paragrafo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -88,13 +87,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 32px;
 }
 
 .subtitulo__links {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .links__link {
@@ -102,10 +101,10 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria); 
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -117,10 +116,14 @@ body {
     padding: 21.6px;
 }
 
+.intro__img {
+    width: 50%;
+}
+
 .rodape {
     padding: 26px;
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     text-align: center;
-    font-size: 24px;       
+    font-size: 1.5rem;       
 }
