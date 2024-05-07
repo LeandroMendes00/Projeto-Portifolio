@@ -127,3 +127,23 @@ body {
     text-align: center;
     font-size: 1.5rem;       
 }
+
+@media (min-width: 480px) and (max-width: 1200px) {
+
+    .menu {
+        padding: 10%;
+    }
+
+    .menu__aba {
+        justify-content: center;
+    }
+
+    .introducao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .introducao__conteudo {
+        width: auto;
+    }
+}
