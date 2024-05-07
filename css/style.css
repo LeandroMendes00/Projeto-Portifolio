@@ -1,10 +1,10 @@
 /* ADD URL FONT */
 
 :root {
-    --cor-primaria: #6962AD;
-    --cor-secundaria: #83C0C1;
-    --cor-terciaria: #6C22A6;
-    --cor-hover: #96E9C6;
+    --cor-primaria: #240A34;
+    --cor-secundaria: #891652;
+    --cor-terciaria: #EABE6C;
+    --cor-hover: #FFEDD8;
 
     --fonte-primaria: /*DEFINIR*/;
     --fonte-secundaria: /*DEFINIR*/ ;
@@ -121,7 +121,7 @@ body {
 }
 
 .rodape {
-    padding: 26px;
+    padding: 24px;
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     text-align: center;
