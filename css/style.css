@@ -113,7 +113,7 @@ body {
 
 .links__link:hover {
     background-color: var(--cor-hover);
-    padding: 21.6px;
+    padding: 1.35rem;
 }
 
 /* .intro__img {
@@ -145,5 +145,9 @@ body {
 
     .introducao__conteudo {
         width: auto;
+    }
+
+    .links__link {
+        font-size: 1.1rem;
     }
 }
