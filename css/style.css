@@ -113,12 +113,12 @@ body {
 
 .links__link:hover {
     background-color: var(--cor-hover);
-    /* padding: 21.6px; */
+    padding: 21.6px;
 }
 
-.intro__img {
+/* .intro__img {
     width: 50%;
-}
+} */
 
 .rodape {
     padding: 24px;
