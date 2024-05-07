@@ -113,7 +113,7 @@ body {
 
 .links__link:hover {
     background-color: var(--cor-hover);
-    padding: 21.6px;
+    /* padding: 21.6px; */
 }
 
 .intro__img {
