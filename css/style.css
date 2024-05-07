@@ -56,7 +56,7 @@ body {
 }
 
 .introducao__conteudo {
-    width: 50%;
+    /* width: 50%;  MUDAR QND ADD FOTO*/
     display: flex;
     flex-direction: column;
     gap: 40px;
