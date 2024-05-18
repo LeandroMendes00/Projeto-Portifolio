@@ -1,13 +1,16 @@
 /* ADD URL FONT */
 
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
     --cor-primaria: #7FC7D9;
     --cor-secundaria: #0F1035;
     --cor-terciaria: #365486;
     --cor-hover: #DCF2F1;
 
-    --fonte-primaria: /*DEFINIR*/;
-    --fonte-secundaria: /*DEFINIR*/ ;
+    --fonte-primaria: "Domine";
+    --fonte-secundaria: "Lora";
 }
 
 * {
@@ -37,6 +40,7 @@ body {
 .menu__aba {
     display: flex;
     gap: 80px;
+    font-family: var(--fonte-primaria);
 }
 
 .nav__menu__aba {
@@ -52,6 +56,7 @@ body {
     align-items: center;
     justify-content: space-between;
     color: var(--cor-secundaria); 
+    font-family: var(--fonte-secundaria);
     gap: 82px;
 }
 
@@ -64,7 +69,7 @@ body {
 
 .introducao__conteudo__titulo {
     font-size: 2.25rem;
-    font-family: Jacquard 12 Charted;
+    font-family: var(--fonte-primaria);
 }
 
 .introducao__conteudo__subtitulo {
@@ -73,7 +78,7 @@ body {
 
 .introducao__conteudo__paragrafo {
     font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__conteudo__texto a{
@@ -91,7 +96,7 @@ body {
 }
 
 .subtitulo__links {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
 }
@@ -124,6 +129,7 @@ body {
     padding: 24px;
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
     text-align: center;
     font-size: 1.5rem;       
 }
